@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Talanoff\ImpressionAdmin\Services\Navigation;
+use App\Services\Navigation;
 
 
 class AppServiceProvider extends ServiceProvider

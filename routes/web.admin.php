@@ -11,7 +11,7 @@ Route::group([
     'namespace' => 'Admin',
 ], function () {
 
-    Route::get('/', 'DashboardController@index')->name('home');
+    Route::get('/', 'DashboardController@index')->name('dashboard.index');
 
     Route::resource('users', 'UsersController');
 

@@ -6,7 +6,9 @@
             <div class="panel-item">
                 <div class="panel-item-content">
                     <a href="#">
-                        <div class="text-6xl text-teal-dark font-weight-light">0</div>
+                        <div class="text-6xl text-teal-dark font-weight-light">
+                            0
+                        </div>
                         <p class="description">Зарегистрировано пользователей</p>
                     </a>
                 </div>

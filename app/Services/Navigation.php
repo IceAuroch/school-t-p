@@ -1,6 +1,6 @@
 <?php
 
-namespace Talanoff\ImpressionAdmin\Services;
+namespace App\Services;
 
 use Talanoff\ImpressionAdmin\Helpers\NavDelimiter;
 use Talanoff\ImpressionAdmin\Helpers\NavItem;
@@ -20,7 +20,7 @@ class Navigation
                 'route' => 'dashboard',
                 'icon' => 'i-clipboard',
             ]),
-            new NavDelimiter(),
+//            new NavDelimiter(),
         ];
     }
 }
