@@ -5,7 +5,9 @@ use Illuminate\Support\Facades\Route;
 Route::group([
     'as' => 'admin.',
     'prefix' => 'admin',
-    'middleware' => ['auth', 'role:admin'],
+    'middleware' => ['auth',
+        //'role:admin'
+    ],
     'namespace' => 'Admin',
 ], function () {
 

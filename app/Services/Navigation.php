@@ -15,12 +15,12 @@ class Navigation
     public function backend()
     {
         return [
-//            new NavItem([
-//                'name' => 'Пресс-центр',
-//                'route' => 'posts',
-//                'icon' => 'i-clipboard',
-//            ]),
-//            new NavDelimiter(),
+            new NavItem([
+                'name' => 'Админка',
+                'route' => 'dashboard',
+                'icon' => 'i-clipboard',
+            ]),
+            new NavDelimiter(),
         ];
     }
 }
